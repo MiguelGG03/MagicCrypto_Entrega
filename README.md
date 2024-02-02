@@ -20,9 +20,7 @@ El código ASCII tiene ordenados los caracteres de todo tipo posible en en orden
 
 Básicamente tenemos dos itervalos de tipos de letras, uno para las letras mayusculas y otro para las minúscilas. El funcionamiento del algoritmo Atbash es "invertir" las letras de su intervalo del abecedario.
 
-$
-Cifrado(letra) = (Z - letra) + A
-$
+$Cifrado(letra) = (Z - letra) + A$
 
 - **letra** : es la letra que se va a cifrar
 - **A y Z** : respresentan las posiciones numéricas de la primera y última letra del alfabeto respectivamente, en nuestro caso se hace usando los valores del código ASCII, que al ser en minúsculas son 97 para la 'a' y 122 para la 'z'.
